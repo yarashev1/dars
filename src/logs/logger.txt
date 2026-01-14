@@ -1,0 +1,2 @@
+
+[Wed Jan 14 2026 19:22:47 GMT+0500 (Uzbekistan Standard Time)]--POST--/api/register--validations.registerSchema.validat is not a function

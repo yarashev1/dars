@@ -11,6 +11,6 @@ create TABLE "users"(
     "title" varchar(255) not null,
     "file_name" varchar(255) not null,
     "suzi" integer not null,
-    "user_id" int REFERENCES users(id) delete on CASCADE,
+    "user_id" int REFERENCES users(id)  on delete  CASCADE,
     "created_at" TIMESTAMP DEFAULT(CURRENT_TIMESTAMP)
  );
